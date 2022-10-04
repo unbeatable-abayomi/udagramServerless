@@ -1,7 +1,7 @@
 # TODO: Change the name of the org 
-org: abayomi
-app: serverless-todoApp
-service: serverless-todoApp
+org: igwubor
+app: serverless-udapeople2
+service: serverless-udapeople
 
 plugins:
   - serverless-webpack
@@ -15,7 +15,7 @@ provider:
   runtime: nodejs12.x
  # lambdaHashingVersion: '20201221'
   stage: ${opt:stage, 'dev'}
-  region: ${opt:region, 'us-east-2'}
+  region: ${opt:region, 'us-east-1'}
 
   tracing:
     lambda: true
@@ -24,9 +24,9 @@ provider:
   # Use these variables in the functions and resouorces section below. For example, 
   # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
   environment:
-    PROJECT_NAME: abayomi-serveless
-    TODOS_TABLE: abayomi-serverless-${self:provider.stage}
-    S3_BUCKET_NAME: abayomi-serverless-${self:provider.stage}
+    PROJECT_NAME: udapeople-serveless
+    TODOS_TABLE: udapeople-serverless-${self:provider.stage}
+    S3_BUCKET_NAME: abayoudapeop86-serverless-${self:provider.stage}
 
 
 custom:

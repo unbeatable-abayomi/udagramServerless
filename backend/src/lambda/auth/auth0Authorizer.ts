@@ -7,7 +7,7 @@ import { JwtPayload } from '../../auth/JwtPayload'
 
 const logger = createLogger('auth');
 
-// Todo abayomi wip
+// Todo abayomi
 const jwksUrl = 'https://dev-3eel7buh.us.auth0.com/.well-known/jwks.json';
 
 
